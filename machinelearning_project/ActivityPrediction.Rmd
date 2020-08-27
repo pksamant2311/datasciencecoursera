@@ -3,8 +3,8 @@ title: "Activity Background"
 author: "Parth Samant"
 date: "August 24, 2020"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
