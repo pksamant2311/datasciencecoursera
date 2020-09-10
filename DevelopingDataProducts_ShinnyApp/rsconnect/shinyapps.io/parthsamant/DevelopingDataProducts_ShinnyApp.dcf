@@ -1,0 +1,13 @@
+name: DevelopingDataProducts_ShinnyApp
+title: DevelopingDataProducts_ShinnyApp
+username:
+account: parthsamant
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2785534
+bundleId: 3616205
+url: https://parthsamant.shinyapps.io/DevelopingDataProducts_ShinnyApp/
+when: 1599763581.90927
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: reproducible_pitch.html|reproducible_pitch.Rmd

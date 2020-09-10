@@ -1,0 +1,51 @@
+---
+title: "Covid-19 Deaths"
+author: "Parth Samant"
+date: "September 10, 2020"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo =TRUE)
+```
+
+## Sample Deck - Developing Data Product for Coursera
+
+Here's what you need
+
+5 slides to pitch our idea done in Slidify or Rstudio Presenter
+Your presentation pushed to github or Rpubs
+A link to your github or Rpubs presentation
+Your presentation must satisfy the following
+
+It must be done in Slidify or Rstudio Presenter
+It must be 5 pages
+It must be hosted on github or Rpubs
+It must contained some embedded R code that runs
+
+
+## Application - Covid-19 deaths per Country
+
+The application shows Covid-Deaths per Country of 5 days.
+The countries can be selected as of a drop down menu.
+ 
+The repository consists of two final files:
+
+- ui.R
+- server.R
+
+Data file: CVD.csv
+
+
+## Read Data
+```{r}
+cvd <- read.csv2("CVD.csv")
+cvd
+```
+
+
+
+## Including Plots
+```{r}
+plot(cvd)
+```
